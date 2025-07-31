@@ -1,27 +1,27 @@
-import React, { useState, useMemo } from 'react'
-import { X, ChevronUp, ChevronDown } from 'lucide-react'
+import React from 'react'
+// import { X, ChevronUp, ChevronDown } from 'lucide-react'
 import styled from 'styled-components'
 import { useFormula } from '../context/FormulaContext'
 
 // Basic styled components
-const MatrixContainer = styled.div\`
+const MatrixContainer = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
   overflow: hidden;
   padding: 12px;
-\`
+`
 
-const Header = styled.div\`
+const Header = styled.div`
   margin-bottom: 16px;
   padding-bottom: 8px;
   border-bottom: 1px solid #E5E7EB;
-\`
+`
 
-const Content = styled.div\`
+const Content = styled.div`
   flex: 1;
   overflow: auto;
-\`
+`
 
 const ReferenceMatrix: React.FC = () => {
   const { activeIngredients } = useFormula()
