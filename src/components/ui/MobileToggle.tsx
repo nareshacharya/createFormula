@@ -1,5 +1,5 @@
 import React from 'react'
-import { MobileToggle as StyledMobileToggle } from '../../styles/styledComponents'
+import { MobileToggle as StyledMobileToggle } from '../../styles'
 
 interface MobileToggleProps {
   isCollapsed: boolean

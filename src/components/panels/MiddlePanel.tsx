@@ -1,5 +1,5 @@
 import React from 'react'
-import { MiddlePanel } from '../../styles/styledComponents'
+import { MiddlePanel } from '../../styles'
 import { useFormula } from '../../context/FormulaContext'
 import ActiveFormulaCanvas from '../ActiveFormulaCanvas'
 

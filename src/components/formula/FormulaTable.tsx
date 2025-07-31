@@ -8,7 +8,7 @@ import {
   TableCell,
   EditableCell,
   ActionButton
-} from '../../styles/styledComponents'
+} from '../../styles'
 
 interface FormulaTableProps {
   ingredients: FormulaIngredient[]

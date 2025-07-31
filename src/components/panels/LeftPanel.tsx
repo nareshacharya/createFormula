@@ -1,6 +1,6 @@
 import React from 'react'
 import { ChevronRight, ChevronLeft } from 'lucide-react'
-import { ResponsiveLeftPanel, PanelToggle, PanelTitle, LeftPanelHeader } from '../../styles/styledComponents'
+import { ResponsiveLeftPanel, PanelToggle, PanelTitle, LeftPanelHeader } from '../../styles'
 import { useFormula } from '../../context/FormulaContext'
 import IngredientsLibrary from '../IngredientsLibrary'
 import CollapsedPanelContent from '../ui/CollapsedPanelContent'

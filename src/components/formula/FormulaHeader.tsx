@@ -6,7 +6,7 @@ import {
   HeaderActions, 
   ActionButtonGroup, 
   HeaderActionButton
-} from '../../styles/styledComponents'
+} from '../../styles'
 
 interface FormulaHeaderProps {
   ingredientCount: number
@@ -15,7 +15,6 @@ interface FormulaHeaderProps {
 }
 
 const FormulaHeader: React.FC<FormulaHeaderProps> = ({
-  ingredientCount,
   batchSize,
   batchUnit
 }) => {

@@ -9,7 +9,7 @@ import {
   GlobalUnitSelect,
   GlobalActionButtonGroup,
   GlobalActionButton
-} from '../styles/styledComponents'
+} from '../styles'
 
 const GlobalHeader: React.FC = () => {
   const { batchSize, batchUnit, setBatchSize, setBatchUnit } = useFormula()

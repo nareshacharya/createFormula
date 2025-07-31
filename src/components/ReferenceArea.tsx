@@ -9,7 +9,7 @@ import {
   FormulaDetailsHeader,
   FormulaDetailsContent,
   FormulaAttribute
-} from '../styles/styledComponents'
+} from '../styles'
 
 const ReferenceArea: React.FC = () => {
   const [, setSelectedFormula] = useState<string>('ref-001')

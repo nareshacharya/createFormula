@@ -10,12 +10,10 @@ import {
   IngredientCard,
   IngredientName,
   IngredientMeta,
-  IngredientTags,
-  Tag,
   SearchContainer,
   SearchIcon,
   FilterIcon
-} from '../styles/styledComponents'
+} from '../styles'
 
 const IngredientsLibrary: React.FC = () => {
   const { addIngredient, activeIngredients } = useFormula()

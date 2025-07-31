@@ -1,5 +1,5 @@
 import React from 'react'
-import { ChevronRight, ChevronLeft } from 'lucide-react'
+
 
 interface CollapsedPanelContentProps {
   icon: string

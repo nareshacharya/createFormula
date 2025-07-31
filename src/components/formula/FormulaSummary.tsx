@@ -1,7 +1,7 @@
 import React from 'react'
 import { TrendingUp } from 'lucide-react'
 import { FormulaSummary as FormulaSummaryType } from '../../models/Formula'
-import { SummaryRow, SummaryItem, SummaryLabel, SummaryValue } from '../../styles/styledComponents'
+import { SummaryRow, SummaryItem, SummaryLabel, SummaryValue } from '../../styles'
 
 interface FormulaSummaryProps {
   summary: FormulaSummaryType

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ResponsiveContainer } from '../styles/styledComponents'
+import { ResponsiveContainer } from '../styles'
 import { FormulaProvider, useFormula } from '../context/FormulaContext'
 import LeftPanel from './panels/LeftPanel'
 import MiddlePanelComponent from './panels/MiddlePanel'
